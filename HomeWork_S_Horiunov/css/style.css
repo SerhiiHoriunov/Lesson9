@@ -1,0 +1,43 @@
+body {
+    margin-left: 30px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(51, 112, 233);
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(51, 112, 233);;
+}
+
+div {
+    border: dotted #fb1818;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    color: rgba(207, 9, 178, 0.655);
+    padding: 1.2em;
+    margin-left: 20px;
+}
+
+div#hook {
+    color: rgb(28, 229, 14);
+}
+
+button {
+    display: flex;
+    border-radius:10px;
+    border: 3px solid #fb1818;
+    background: #ff9900;
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    margin: 30px;
+}
+
+button#loss {
+    border: 2px solid green;
+    background: yellow;
+}
+
