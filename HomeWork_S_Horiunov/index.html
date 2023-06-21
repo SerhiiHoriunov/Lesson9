@@ -10,6 +10,7 @@
   <body>
     <h1>Home Work 9. Events</h1>
     <h2>Author Serhii Horiunov</h2>
+    <!-- Текст зникає та з'являється -->
     <div id="text">
         <h3>СЕПУЛЬКИ</h3>
         <p>Знайшов наступні короткі відомості:</p>
@@ -22,7 +23,51 @@
     </div>
     <button id="hide">Hide text</button>
     <button id="unhide">Unhide text</button>
+    <!-- Кнопка зникає -->
     <button id="loss" onclick="hide">Сховай мене!</button>
+    <!-- Дерево з дочірніми вузлами -->
+    <ul class="listTree">
+      <li>
+        Дерева
+        <ul>
+          <li>
+            Листвяні
+            <ul>
+              <li>Дуб</li>
+              <li>Клен</li>
+              <li>Береза</li>
+            </ul>
+          </li>
+          <li>
+            Хвойні
+            <ul>
+              <li>Сосна</li>
+              <li>Модрина</li>
+              <li>Кіпарис</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Квіти
+        <ul>
+          <li>
+            Польові
+            <ul>
+              <li>Нагідки польові</li>
+              <li>Роман польовий</li>
+            </ul>
+          </li>
+          <li>
+            Садові
+            <ul>
+              <li>Крокуси</li>
+              <li>Мускарі</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
     <script src="./js/script.js"></script>
   </body>
 </html>
